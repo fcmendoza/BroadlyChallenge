@@ -50,10 +50,10 @@ namespace Challenge {
 
             int count = content.Students.Where(s => s.Age >= 25).Count();
 
-            //Console.WriteLine("Room: {0}, Number of students: {1}, Number of students 25 y/o and older: {2}"
-            //        , content.Room
-            //        , content.Students.Count()
-            //        , count);
+            Console.WriteLine("Room: {0}, Number of students: {1}, Number of students 25 y/o and older: {2}"
+                    , content.Room
+                    , content.Students.Count()
+                    , count);
 
             return String.IsNullOrWhiteSpace(content.Next) 
                 ? acc + count 
