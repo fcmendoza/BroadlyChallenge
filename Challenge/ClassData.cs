@@ -15,7 +15,6 @@ namespace Challenge {
         public string Room { get; set; }
         public IEnumerable<Student> Students { get; set; }
         public string Next { get; set; }
-        public int FilteredStudentsCount { get { return Students.Where(s => s.Age >= 25).Count(); } }
     }
 
     public class Student {
