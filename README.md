@@ -11,7 +11,9 @@ Answer: Based on the data provided the number of classes are 11, and ignoring st
 
 This is a small console application written in C# that retrieves the json data from the provided endpoint, parses it and calculates the average number of students per class as stated above.
 
-The source code is found on `Challenge/ApiClient.cs` and it's also shown below:
+The source code is found on `Challenge/Program.cs` and it's also shown below.
+
+NOTE: I deliberately didn't include error/exception handling and common validations in the code to keep it short.
 
 ```cs
 using System;
